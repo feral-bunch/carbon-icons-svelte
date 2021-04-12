@@ -32,12 +32,6 @@ function template(output: IconOutput) {
 
 <svg
   data-carbon-icon="${moduleName}"
-  on:click
-  on:mouseover
-  on:mouseenter
-  on:mouseleave
-  on:keyup
-  on:keydown
   ${formatAttributes(descriptor.attrs)}
   class={className}
   preserveAspectRatio="${defaultAttributes.preserveAspectRatio}"
